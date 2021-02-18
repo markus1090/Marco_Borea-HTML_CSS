@@ -17,6 +17,7 @@ body {
   flex-direction: column;
 }
 
+/* Stile menù */
 .pagination {
 	position:fixed;
 	right:20px;
@@ -71,6 +72,7 @@ body {
 	bottom:0;
 }
 
+/* Stile Home */
 #section-introduction {
   height: 800px;
   display: flex;
@@ -136,6 +138,7 @@ body {
   line-height: 1em;
 }
 
+/* Stile sezione mini-biografia */
 #section-bio {
   height: 850px;
   display: flex;
@@ -176,6 +179,7 @@ body {
   padding-right: 10px;
 }
 
+/* Stile sezione progetti */
 #section-progetti {
   height: 850px;
   width: 100%;
@@ -212,6 +216,7 @@ body {
    display: none;
 }
 
+/* Stile sezione contatti e form */
 #section-contatti {
   height: 850px;
   width: 100%;

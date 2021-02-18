@@ -1,3 +1,4 @@
+/* Scrollify */
 $(function() {
   $.scrollify({
     section:".panel",
@@ -28,6 +29,7 @@ $(function() {
   });
 });
 
+/* Implementazione puntini di sospensione */
 function dot () {
   setTimeout(function() { 
     $("#dot1").toggle();  }, 500);
@@ -46,6 +48,7 @@ function dot () {
 
 setInterval(dot,2500);
 
+/* Animazione testi Home */
 anime.timeline({loop: false})
 .add({
   targets: '.ml5 .line',
